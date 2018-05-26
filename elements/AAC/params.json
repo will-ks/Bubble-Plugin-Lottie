@@ -1,0 +1,60 @@
+{
+    "add_hover_pressed": true,
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 200,
+        "width": 400
+    },
+    "display": "Lottie",
+    "edit_mode_image": "//s3.amazonaws.com/appforest_uf/f1527159019013x937568969093263200/lottie.png",
+    "fields": {
+        "AAD": {
+            "caption": "JSON File",
+            "doc": "Bodymovin exported JSON file",
+            "editor": "DynamicValue",
+            "name": "json_file",
+            "rank": 0,
+            "value": "file"
+        },
+        "AAF": {
+            "caption": "Loop",
+            "default_val": true,
+            "doc": "Loop?",
+            "editor": "Checkbox",
+            "name": "loop",
+            "rank": 1
+        },
+        "AAH": {
+            "caption": "Autoplay",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "autoplay",
+            "rank": 2
+        },
+        "AAK": {
+            "caption": "Speed",
+            "default_val": 1,
+            "editor": "StaticNumber",
+            "name": "speed",
+            "rank": 3
+        },
+        "AAN": {
+            "caption": "Direction",
+            "default_val": "Forwards",
+            "editor": "Dropdown",
+            "name": "direction",
+            "options": "Forwards,Backwards",
+            "rank": 4
+        }
+    },
+    "icon": "ion-android-hand",
+    "property_applications": {
+        "Background": true,
+        "Border": true,
+        "BoxShadow": true,
+        "MinWidth": true,
+        "Padding": true,
+        "resizable": true
+    }
+}
